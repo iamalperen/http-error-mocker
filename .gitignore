@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Jest coverage
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+.idea
+.idea/*
+.vscode
