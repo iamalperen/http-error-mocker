@@ -12,10 +12,7 @@
     "release": "standard-version"
   },
   "lint-staged": {
-    "*.ts": [
-      "eslint --fix",
-      "prettier --write"
-    ]
+    "*.ts": ["eslint --fix", "prettier --write"]
   },
   "keywords": [
     "http",
