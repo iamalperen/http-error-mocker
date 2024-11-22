@@ -39,7 +39,13 @@ mocker.mock((url) => url.includes('/api/error'), {
 mocker.start();
 
 // Your code that makes fetch calls
-// ...
+fetch('/api/error')
+    .then((response) => {
+        console.log(response.status); // 500
+    })
+    .catch((error) => {
+        console.error(error);
+    });
 
 // Stop intercepting when done
 mocker.stop();
