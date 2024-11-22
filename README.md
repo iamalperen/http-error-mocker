@@ -1,7 +1,7 @@
 # HTTP Error Mocker
 
 [![npm version](https://badge.fury.io/js/http-error-mocker.svg)](https://badge.fury.io/js/http-error-mocker)
-[![CI](https://github.com/yourusername/http-error-mocker/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/http-error-mocker/actions)
+[![CI](https://github.com/iamalperen/http-error-mocker/actions/workflows/ci.yml/badge.svg)](https://github.com/iamalperen/http-error-mocker/actions)
 
 Mocking HTTP errors and network conditions for testing purposes.
 
